@@ -1,0 +1,36 @@
+A_35SPENNORT:35:Spencer Street:North Melbourne:Apartment:2:Available:a09.jpg:This is a description for property!
+A_35SPENNORT_btoapemx_24082018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_35SPENNORT_rnuti_11102018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_42LATRCARL:42:La Trobe Street:Carlton:Apartment:2:Available:a03.jpg:This is a description for property!
+A_42LATRCARL_yhcwch_14072018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_42LATRCARL_fvpvkv_24082018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_31SPRICARL:31:Spring Street:Carlton:Apartment:2:Available:a02.jpg:This is a description for property!
+A_31SPRICARL_bucrgu_10022018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_31SPRICARL_ycaba_07012018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_47KINGSTKI:47:King Street:St Kilda:Apartment:2:Available:a10.jpg:This is a description for property!
+A_47KINGSTKI_hxkz_02122018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_53SWANFLEM:53:Swanston Street:Flemington:Apartment:1:Available:a03.jpg:This is a description for property!
+A_53SWANFLEM_xlxzhml_20122018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_74SPRIPRAH:74:Spring Street:Prahran-Windsor:Apartment:2:Available:a01.jpg:This is a description for property!
+A_74SPRIPRAH_xwytydbg_01082018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_74SPRIPRAH_xknb_07082018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_83SWANCOLL:83:Swanston Street:Collingwood:Apartment:1:Available:a02.jpg:This is a description for property!
+A_83SWANCOLL_axlxigyl_18052018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_71COLLSOUT:71:Collins Street:Southbank:Apartment:2:Available:a06.jpg:This is a description for property!
+A_71COLLSOUT_vgxa_15122018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_71COLLSOUT_tmabtamc_02112018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_96SPENPRAH:96:Spencer Street:Prahran-Windsor:Apartment:1:Available:a04.jpg:This is a description for property!
+A_96SPENPRAH_jrkssfbvvp_15102018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_96SPENPRAH_thx_14022018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_26SPENCARL:26:Spencer Street:Carlton:Premium Suite:3:Available:23/04/2018:s04.jpg:This is a description for property!
+S_26SPENCARL_jfvjeo_04032018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_76KINGFITZ:76:King Street:Fitzroy:Premium Suite:3:Available:24/04/2018:s03.jpg:This is a description for property!
+S_76KINGFITZ_gllbb_23122018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_76KINGFITZ_gllbb_13042018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_47COLLCOLL:47:Collins Street:Collingwood:Premium Suite:3:Available:03/03/2018:s01.jpg:This is a description for property!
+S_47COLLCOLL_buqjct_09072018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_69KINGFLEM:69:King Street:Flemington:Premium Suite:3:Available:22/09/2018:s02.jpg:This is a description for property!
+S_69KINGFLEM_lawiggaiar_27092018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_69KINGFLEM_lawiggaiar_11052018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_80SPENSOUT:80:Spencer Street:South Yarra:Premium Suite:3:Available:19/11/2018:s03.jpg:This is a description for property!
+S_80SPENSOUT_zwjwyud_01042018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00

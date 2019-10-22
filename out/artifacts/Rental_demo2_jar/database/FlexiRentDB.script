@@ -1,0 +1,63 @@
+SET DATABASE UNIQUE NAME HSQLDB69E22F0F11
+SET DATABASE GC 0
+SET DATABASE DEFAULT RESULT MEMORY ROWS 0
+SET DATABASE EVENT LOG LEVEL 0
+SET DATABASE TRANSACTION CONTROL LOCKS
+SET DATABASE DEFAULT ISOLATION LEVEL READ COMMITTED
+SET DATABASE TRANSACTION ROLLBACK ON CONFLICT TRUE
+SET DATABASE TEXT TABLE DEFAULTS ''
+SET DATABASE SQL NAMES FALSE
+SET DATABASE SQL REFERENCES FALSE
+SET DATABASE SQL SIZE TRUE
+SET DATABASE SQL TYPES FALSE
+SET DATABASE SQL TDC DELETE TRUE
+SET DATABASE SQL TDC UPDATE TRUE
+SET DATABASE SQL CONCAT NULLS TRUE
+SET DATABASE SQL UNIQUE NULLS TRUE
+SET DATABASE SQL CONVERT TRUNCATE TRUE
+SET DATABASE SQL AVG SCALE 0
+SET DATABASE SQL DOUBLE NAN TRUE
+SET FILES WRITE DELAY 500 MILLIS
+SET FILES BACKUP INCREMENT TRUE
+SET FILES CACHE SIZE 10000
+SET FILES CACHE ROWS 50000
+SET FILES SCALE 32
+SET FILES LOB SCALE 32
+SET FILES DEFRAG 0
+SET FILES NIO TRUE
+SET FILES NIO SIZE 256
+SET FILES LOG TRUE
+SET FILES LOG SIZE 50
+CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
+ALTER USER SA SET LOCAL TRUE
+CREATE SCHEMA PUBLIC AUTHORIZATION DBA
+SET SCHEMA PUBLIC
+CREATE MEMORY TABLE PUBLIC.RENTAL_PROPERTY(PROPERTY_ID VARCHAR(100) NOT NULL PRIMARY KEY,STREET_NUM VARCHAR(100) NOT NULL,STREET_NAME VARCHAR(100) NOT NULL,SUBURB VARCHAR(100) NOT NULL,PROPERTY_TYPE VARCHAR(100) NOT NULL,BEDROOMS_NUM INTEGER NOT NULL,PROPERTY_STATUS VARCHAR(100) NOT NULL,MAINTENANCE_DATE VARCHAR(100) NOT NULL,RENT_RATE DOUBLE NOT NULL,LATE_RATE DOUBLE NOT NULL,IMAGE_NAME VARCHAR(100) NOT NULL,DESCRIPTION VARCHAR(4095) NOT NULL)
+CREATE MEMORY TABLE PUBLIC.RENTAL_RECORD(RECORD_ID VARCHAR(100) NOT NULL PRIMARY KEY,PROPERTY_ID VARCHAR(100) NOT NULL,RENT_DATE VARCHAR(100) NOT NULL,ESTIMATED_RETURN_DATE VARCHAR(100) NOT NULL,ACTUAL_RETURN_DATE VARCHAR(100) NOT NULL,RENT_FEE DOUBLE,LATE_FEE DOUBLE,FOREIGN KEY(PROPERTY_ID) REFERENCES PUBLIC.RENTAL_PROPERTY(PROPERTY_ID))
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 1
+SET DATABASE DEFAULT INITIAL SCHEMA PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.SQL_IDENTIFIER TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.YES_OR_NO TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.TIME_STAMP TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CARDINAL_NUMBER TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CHARACTER_DATA TO PUBLIC
+GRANT DBA TO SA
+SET SCHEMA SYSTEM_LOBS
+INSERT INTO BLOCKS VALUES(0,2147483647,0)
+SET SCHEMA PUBLIC
+INSERT INTO RENTAL_PROPERTY VALUES('A_11KINGSTKI','11','King Street','St Kilda','Apartment',2,'Rented','none',210.0E0,241.5E0,'a06.jpg','A modern one bed apartment in the absolute heart of the CBD overlooking the Second Empire style Neoclassical Melbourne Town Hall built in 1870. At just under 50 sq m (Melbourne inner city apartments are generally not as large as in suburbia and space is a premium) it is equipped for stays for one or two people. Features include comfortable queen size bed, Euro galley kitchen and contemporary bathroom. With public transport, restaurants, bars and much more at the doorstep, it is convenient to everything Melbourne city has to offer from Paris end Collins St. shopping, to the Arts Precinct and Laneway coffee and food - its all at your doorstep or within 10-15 minute walk. The Capitol Theatre building is heritage listed and as such, the original features such as the huge windows, and interior column detailing dating from 1924 are there to appreciate in original condition as a contrast to the more recent interior renovations and modernisation.')
+INSERT INTO RENTAL_PROPERTY VALUES('A_53SPRICARL','53','Spring Street','Carlton','Apartment',2,'Available','none',210.0E0,241.5E0,'a08.jpg','Live the high life in this secure complex, with a vista offering magnificent views of the city. Inside, there are numerous contemporary luxuries, such as a 43" TV and fast ADSL (NBN) connection. Theres also a fully-equipped open-plan kitchen.')
+INSERT INTO RENTAL_PROPERTY VALUES('A_59SPENSTKI','59','Spencer Street','St Kilda','Apartment',1,'Available','none',143.0E0,164.45E0,'a04.jpg','Stylish, relaxing downstairs space on lower floor of my home. ')
+INSERT INTO RENTAL_PROPERTY VALUES('A_61FLINSTKI','61','Flinders Street','St Kilda','Apartment',2,'Available','none',210.0E0,241.5E0,'a09.jpg','My ground floor apartment with high speed broadband internet is located in the heart of the inner-west area of Newtown, less than 5km from Sydney city centre and 8km from Sydney International Airport. Its available for short-medium stays.')
+INSERT INTO RENTAL_PROPERTY VALUES('A_64SPRINORT','64','Spring Street','North Melbourne','Apartment',2,'Available','none',210.0E0,241.5E0,'a05.jpg','Admire panoramic views of the business district from sunrise to sunset at a contemporary apartment with a covered balcony. Statement artwork adds character to the elegant decor, while subtle house plants create a fresh and peaceful ambience.')
+INSERT INTO RENTAL_PROPERTY VALUES('A_84WILLSTKI','84','William Street','St Kilda','Apartment',2,'Available','none',210.0E0,241.5E0,'a01.jpg','Simple modern design suits this apartment perfectly. With the cozy internal decoration, this one can easily get everyone be used to it.')
+INSERT INTO RENTAL_PROPERTY VALUES('A_87SPENCOLL','87','Spencer Street','Collingwood','Apartment',1,'Available','none',143.0E0,164.45E0,'a07.jpg','A definitely luxury living place. Apart from apartment, this one is located on the roof of a famous building. Everyday wakes up in the most exciting city view!')
+INSERT INTO RENTAL_PROPERTY VALUES('A_98SWANSTKI','98','Swanston Street','St Kilda','Apartment',2,'Available','none',210.0E0,241.5E0,'a03.jpg','The heritage listing also exerts it own challenges for owners and requires us to respect the original fabric of the building - such things as windows and walls cannot be altered and remain a beautiful and tangible reflection of times long past. The space is also a reflection of my life philosophy of "less is more". Clearing out superfluous items, walking/cycling or public transporting, and living in a space that is no larger than it needs to be for my needs - is benefiting the health of the planet and my own wellbeing. It is also an ideal way to live for those needing to travel frequently or perhaps just to love the feeling of freedom that comes with this lifestyle.')
+INSERT INTO RENTAL_PROPERTY VALUES('S_37COLLSOUT','37','Collins Street','Southbank','Premium Suite',3,'Available','23/10/2018',554.0E0,662.0E0,'s03.jpg','Admire panoramic views of the business district from sunrise to sunset at a contemporary apartment with a covered balcony. Statement artwork adds character to the elegant decor, while subtle house plants create a fresh and peaceful ambience.')
+INSERT INTO RENTAL_PROPERTY VALUES('S_56WILLFITZ','56','William Street','Fitzroy','Premium Suite',3,'Available','23/10/2018',554.0E0,662.0E0,'s05.jpg','A fabulous and convenient inner-city crib laced with modern architectural facades.')
+INSERT INTO RENTAL_PROPERTY VALUES('S_78LONSFLEM','78','Lonsdale Street','Flemington','Premium Suite',3,'Available','23/10/2018',554.0E0,662.0E0,'s04.jpg','I only interact with guests via AirBnb, WhatsApp, Email, SMS or Mobile when necessary. Rest assured, my response time is pretty much instant.')
+INSERT INTO RENTAL_PROPERTY VALUES('S_84FLINFLEM','84','Flinders Street','Flemington','Premium Suite',3,'Available','23/10/2018',554.0E0,662.0E0,'s01.jpg','Self contained stylish corner studio apartment with a large outdoor terrace and stunning view of Melbourne city. Set on level 19 above Collins this apartment presents a very unique and very true Melbourne city experience! Complimentary wifi included!')
+INSERT INTO RENTAL_PROPERTY VALUES('S_99ELIZSTKI','99','Elizabeth Street','St Kilda','Premium Suite',3,'Available','23/10/2018',554.0E0,662.0E0,'s02.jpg','The main room with private bathroom has a queen bed. Embedded drawer, free wifi internet access(unlimited data), towels , shampoo, conditioner , body lotion are all available for use.')
+INSERT INTO RENTAL_RECORD VALUES('A_11KINGSTKI_Haha_03042019','A_11KINGSTKI','03/04/2019','06/04/2019','none',0.0E0,0.0E0)
+INSERT INTO RENTAL_RECORD VALUES('A_11KINGSTKI_JJJ_03042019','A_11KINGSTKI','03/04/2019','07/04/2019','04/04/2019',210.0E0,0.0E0)
+INSERT INTO RENTAL_RECORD VALUES('A_11KINGSTKI_\u5e45\u5ea6\u8428\u82ac_05042019','A_11KINGSTKI','05/04/2019','07/04/2019','12/04/2019',630.0E0,966.0E0)

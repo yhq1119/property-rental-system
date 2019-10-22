@@ -1,0 +1,37 @@
+A_39KINGSOUT:39:King Street:South Yarra:Apartment:2:Available:a08.jpg:This is a description for property!
+A_39KINGSOUT_stdd_24092018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_39KINGSOUT_ugg_14092018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_27SPENSTKI:27:Spencer Street:St Kilda:Apartment:2:Available:a07.jpg:This is a description for property!
+A_27SPENSTKI_cjqwbfx_02042018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_27SPENSTKI_epgyu_11012018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_54STEPFITZ:54:Stephen Street:Fitzroy:Apartment:2:Available:a02.jpg:This is a description for property!
+A_54STEPFITZ_dtdrzdkx_21082018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_54STEPFITZ_yddgvwmr_22102018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_22COLLSTKI:22:Collins Street:St Kilda:Apartment:1:Available:a06.jpg:This is a description for property!
+A_22COLLSTKI_dhckejqj_04082018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_14QUEESTKI:14:Queen Street:St Kilda:Apartment:2:Available:a02.jpg:This is a description for property!
+A_14QUEESTKI_drqvlsglx_26012018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_4LONSFITZ:4:Lonsdale Street:Fitzroy:Apartment:1:Available:a03.jpg:This is a description for property!
+A_4LONSFITZ_ckabdmeydk_19072018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_56FLINCARL:56:Flinders Street:Carlton:Apartment:2:Available:a09.jpg:This is a description for property!
+A_56FLINCARL_njjydj_01032018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_56FLINCARL_tkbqnrjmm_09082018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_59KINGSOUT:59:King Street:Southbank:Apartment:1:Available:a06.jpg:This is a description for property!
+A_59KINGSOUT_gzc_06112018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_59KINGSOUT_bsppb_17072018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_76RUSSNORT:76:Russell Street:North Melbourne:Apartment:2:Available:a01.jpg:This is a description for property!
+A_76RUSSNORT_zsmvw_28022018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+A_76RUSSNORT_sxcjchcbm_27042018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_97KINGSOUT:97:King Street:Southbank:Premium Suite:3:Available:09/02/2018:s04.jpg:This is a description for property!
+S_97KINGSOUT_yra_19092018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_81RUSSCARL:81:Russell Street:Carlton:Premium Suite:3:Available:22/06/2018:s01.jpg:This is a description for property!
+S_81RUSSCARL_vwsyorj_01032018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_79WILLCOLL:79:William Street:Collingwood:Premium Suite:3:Available:05/12/2018:s01.jpg:This is a description for property!
+S_79WILLCOLL_qxdvbk_10032018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_79WILLCOLL_qxdvbk_19062018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_34COLLSOUT:34:Collins Street:South Yarra:Premium Suite:3:Available:21/03/2018:s01.jpg:This is a description for property!
+S_34COLLSOUT_qxobmhnq_02052018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_34COLLSOUT_qxobmhnq_22102018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_12WILLST K:12:William Street:St Kilda:Premium Suite:3:Available:24/05/2018:s01.jpg:This is a description for property!
+S_12WILLST K_lez_11112018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00
+S_12WILLST K_lez_02022018:19/10/2018:19/10/2018:19/10/2018:0.00:0.00

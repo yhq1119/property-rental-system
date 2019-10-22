@@ -1,0 +1,14 @@
+A_84WILLSTKI:84:William Street:St Kilda:Apartment:2:Available:a01.jpg:Simple modern design suits this apartment perfectly. With the cozy internal decoration, this one can easily get everyone be used to it.
+A_55SPRIPRAH:55:Spring Street:Prahran-Windsor:Apartment:2:Available:a02.jpg:This is a description for property!
+A_98SWANSTKI:98:Swanston Street:St Kilda:Apartment:2:Available:a03.jpg:This is a description for property!
+A_59SPENSTKI:59:Spencer Street:St Kilda:Apartment:1:Available:a04.jpg:This is a description for property!
+A_64SPRINORT:64:Spring Street:North Melbourne:Apartment:2:Available:a05.jpg:This is a description for property!
+A_11KINGSTKI:11:King Street:St Kilda:Apartment:2:Available:a06.jpg:This is a description for property!
+A_87SPENCOLL:87:Spencer Street:Collingwood:Apartment:1:Available:a07.jpg:A definitely luxury living place. Apart from apartment, this one is located on the roof of a famous building. Everyday wakes up in the most exciting city view!
+A_53SPRICARL:53:Spring Street:Carlton:Apartment:2:Available:a08.jpg:This is a description for property!
+A_61FLINSTKI:61:Flinders Street:St Kilda:Apartment:2:Available:a09.jpg:This is a description for property!
+S_56WILLFITZ:56:William Street:Fitzroy:Premium Suite:3:Available:15/07/2018:s05.jpg:This is a description for property!
+S_37COLLSOUT:37:Collins Street:Southbank:Premium Suite:3:Available:25/03/2018:s03.jpg:This is a description for property!
+S_84FLINFLEM:84:Flinders Street:Flemington:Premium Suite:3:Available:28/09/2018:s01.jpg:This is a description for property!
+S_99ELIZSTKI:99:Elizabeth Street:St Kilda:Premium Suite:3:Available:03/04/2018:s02.jpg:This is a description for property!
+S_78LONSFLEM:78:Lonsdale Street:Flemington:Premium Suite:3:Available:23/05/2018:s04.jpg:This is a description for property!
